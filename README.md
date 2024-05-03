@@ -1,5 +1,6 @@
 <div align="center">
   <h1>image2grid</h1>
+  <img src="./example.png" alt="example output by image2grid" width="400" height="300">
   <p>
   Generate grid-like images or gifs for your GitHub README Profile.<br />Inspired by <a href=https://github.com/mathdroid/crop-github-images-cli>crop-github-images-cli</a>
   </p>

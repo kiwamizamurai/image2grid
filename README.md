@@ -11,7 +11,6 @@
 - [Usage](#usage)
 - [Installation](#installation)
 - [Contribution](#contribution)
-  - [Contributors](#contributors)
 - [Thanks](#thanks)
 
 ## Features
@@ -22,7 +21,7 @@
 ## Usage
 
 ```bash
-❯ image2grid ./example.png
+❯ image2grid ./example.png -t Github_Personal_access_token
 ```
 
 ## Installation
@@ -35,9 +34,7 @@
 
 Whether it's reporting bugs, suggesting features, maintaining packages, or submitting a PR, contribution is always welcome! Please read CONTRIBUTING.md for details on how to contribute to bottom.
 
-### Contributors
-
-- TODO repobeats
+![Alt](https://repobeats.axiom.co/api/embed/72ed4cd2868b94489518a171f0404b6de7386c74.svg "Repobeats analytics image")
 
 ## Thanks
 

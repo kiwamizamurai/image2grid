@@ -6,6 +6,7 @@
   </p>
 </div>
 
+[![Publish to PyPI](https://github.com/kiwamizamurai/image2grid/actions/workflows/publish-to-pypi.yaml/badge.svg)](https://github.com/kiwamizamurai/image2grid/actions/workflows/publish-to-pypi.yaml)
 
 ## Table of contents
 - [Features](#features)

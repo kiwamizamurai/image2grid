@@ -1,0 +1,4 @@
+.ruff_cache
+.mypy-cache
+.venv
+dist

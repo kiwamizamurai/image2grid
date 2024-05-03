@@ -1,6 +1,6 @@
 <div align="center">
   <h1>image2grid</h1>
-  <img src="./example.png" alt="example output by image2grid" width="400" height="300">
+  <img src="https://raw.githubusercontent.com/kiwamizamurai/image2grid/main/example.png" alt="example output by image2grid" width="400" height="300">
   <p>
   Generate grid-like images or gifs for your GitHub README Profile.<br />Inspired by <a href=https://github.com/mathdroid/crop-github-images-cli>crop-github-images-cli</a>
   </p>
@@ -22,13 +22,13 @@
 ## Usage
 
 ```bash
-❯ image2grid ./example.png -t Github_Personal_access_token
+❯ image2grid ./example.png -t github_personal_access_token
 ```
 
 ## Installation
 
 ```bash
-❯ pip install image2grid
+❯ pipx install image2grid
 ```
 
 ## Contribution

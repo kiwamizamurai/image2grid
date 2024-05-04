@@ -16,14 +16,17 @@
 
 ## Features
 
-- Split the image into a grid
-- Create gists and upload files
+1. Split the image into a grid
+2. Create gists and upload files
 
 ## Usage
 
 ```bash
-❯ image2grid ./example.png -t github_personal_access_token
+❯ image2grid ./example.gif
+❯ image2grid ./example.png -t PAT
 ```
+
+scoped [gist] [Personal Access Token (PAT)](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) is required if you create a gists.
 
 ## Installation
 

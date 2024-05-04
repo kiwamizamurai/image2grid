@@ -7,21 +7,30 @@ on:
 
 jobs:
   pypi-publish:
-    name: Upload release to Test PyPI
-    runs-on: ubuntu-latest
+    name: Upload release to PyPI
     environment:
       name: pypi
       url: https://pypi.org/p/image2grid
     permissions:
       id-token: write
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10.11"]
+        poetry-version: ["1.8.1"]
+        os: [ubuntu-22.04]
+    runs-on: ${{ matrix.os }}
     steps:
-      - uses: actions/checkout@v3
-      - uses: jdx/mise-action@v2
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
         with:
-          version: 2024.4.8
-          install: true
-          cache: true
-          experimental: true
+          python-version: ${{ matrix.python-version }}
+      - name: Run image
+        uses: abatilo/actions-poetry@v2
+        with:
+          poetry-version: ${{ matrix.poetry-version }}
+      - name: View poetry --help
+        run: poetry --help
 
       - name: Setup
         run: poetry install

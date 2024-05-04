@@ -7,6 +7,10 @@
 </div>
 
 [![Publish to PyPI](https://github.com/kiwamizamurai/image2grid/actions/workflows/publish-to-pypi.yaml/badge.svg)](https://github.com/kiwamizamurai/image2grid/actions/workflows/publish-to-pypi.yaml)
+![PyPI - Version](https://img.shields.io/pypi/v/image2grid)
+![PyPI - License](https://img.shields.io/pypi/l/image2grid)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/image2grid)
+
 
 ## Table of contents
 - [Features](#features)

@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "image2grid"
-version = "0.1.0"
+version = "0.1.1"
 description = "Turn an image into a grid images"
 authors = ["kiwamizamurai <24860100+kiwamizamurai@users.noreply.github.com>"]
 license = "MIT"

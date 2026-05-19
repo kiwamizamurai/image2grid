@@ -10,6 +10,7 @@
 ![PyPI - Version](https://img.shields.io/pypi/v/image2grid)
 ![PyPI - License](https://img.shields.io/pypi/l/image2grid)
 ![PyPI - Downloads](https://img.shields.io/pypi/dm/image2grid)
+[![PyPI Downloads](https://static.pepy.tech/personalized-badge/image2grid?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/projects/image2grid)
 
 
 ## Table of contents
@@ -28,10 +29,8 @@
 
 ```bash
 ❯ image2grid ./example.gif
-❯ image2grid ./example.png -t PAT
+❯ image2grid ./example.png -t $(gh auth token)
 ```
-
-scoped [gist] [Personal Access Token (PAT)](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) is required if you create a gists.
 
 ## Installation
 
